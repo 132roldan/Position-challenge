@@ -1,0 +1,49 @@
+body{
+  margin: 0px;
+  background-color: lightgray;
+
+}
+.topbar{
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background-color: rgb(29, 29, 29);
+}
+.logo{
+  font-size: 3rem;
+  padding: 10px;
+  background-color:tomato;
+  border-radius: 50%;
+}
+.company{
+  color:white;
+}
+.button{
+  display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.line{
+  
+
+    background-color: black;
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30px;
+
+    height: 5px;
+
+    margin: 3px;
+  
+}
